@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#menu li {
+    list-style-type: none;
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 20px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#bulb-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#bulb-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/environmental-banner.jpg') no-repeat, center center;
+}
+
+#energy-saving-content {
+    margin: 10%
+}
