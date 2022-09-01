@@ -1,13 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+h1, h2 {
+    font-family: Ubuntu, sans-serif ;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+}
 #menu li {
     list-style-type: none;
+    margin-right: 20px;
     float: right;
-    margin-right: 30px;
+}
+
+#menu ul {
+
 }
 
 #menu a {
@@ -21,28 +33,23 @@
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 200%;
     margin-left: 20px;
 }
 
 #menu,
 #logo {
-    line-height: 75px;
+    line-height: 60px;
 }
 
 #bulb-outer {
     height: 600px;
     width: 100%;
-    overflow: hidden;
-    position: relative;
 }
 
 #bulb-image {
     height: 600px;
     width: 100%;
     background: url('../images/environmental-banner.jpg') no-repeat, center center;
-}
-
-#energy-saving-content {
-    margin: 10%
+    margin-top: 0 auto;
 }
