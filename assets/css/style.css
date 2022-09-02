@@ -6,12 +6,14 @@
     border: none;
 }
 
-h1, h2 {
-    font-family: Ubuntu, sans-serif ;
+h1,
+h2 {
+    font-family: Ubuntu, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: black;
 }
+
 #menu li {
     list-style-type: none;
     margin-right: 20px;
@@ -41,11 +43,29 @@ h1, h2 {
 #bulb-image {
     height: 600px;
     width: 100%;
-    background: url('../images/testing.jpg') no-repeat  center center;
-    margin-top: 0 auto;
+    background: url('../images/testing.jpg') no-repeat center center;
+
+
 }
 
 #energy-saving-content {
     text-align: center;
     width: 50%;
+
 }
+
+#start {
+    float: left;
+    margin: 100px 0 100px 40px;
+    height: 500px;
+}
+
+#start-image {
+    background: url('../images/beforestart.jpg') no-repeat center center;
+    float: right;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    left: 1000px;
+}
+
