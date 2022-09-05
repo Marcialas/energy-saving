@@ -61,11 +61,12 @@ h2 {
 }
 
 
-/* content styling */
+/* whole content styling */
 
 
 #energy-saving-content {
     font-size: large;
+    font-family: Ubuntu, sans-serif;
 }
 
 
@@ -137,7 +138,7 @@ h2 {
 
 .controls-style {
     text-align: center;
-    padding: 100px 300px 100px 100px;
+    margin: 100px 200px 100px 100px;
     width: 80%;
     line-height: 30px;
 }
@@ -145,6 +146,7 @@ h2 {
 .controls-position {
     display: flex;
     margin: 100px;
+    flex-direction: row-reverse;
 }
 
 #controls-image {
@@ -152,25 +154,63 @@ h2 {
     height: 500px;
     width: 100%;
     border-radius: 70% 0 70% 0;
+    margin: 300px 100px;
 }
 
 
 /* footer styling */
 
 footer {
-    height: 200px;
+    height: 70px;
     background-color: rgba(111, 168, 35, 0.7);
-    font-size: 500%;
+    font-size: 280%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Ubuntu, sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
-#social {
-    bottom: 0 auto;
+.social {
     list-style-type: none;
-    text-align: center;
-
+    margin-left: 50px;
+    display: inline-flex;
 }
 
 #social li {
     display: inline;
     margin-right: 80px;
+}
+
+.footer-logo {
+    display: inline-flex;
+    margin-right: 50px;
+}
+
+
+/* table page style */
+
+table, th, tr, td {
+    border: 2px solid;
+    margin: 100px 100px 20px 100px;
+    height: 80px;   
+}
+table {
+    border-collapse: collapse;
+}
+.electricity-content {
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+}
+
+.below-table {
+    margin: 100px 100px 300px 100px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
 }
