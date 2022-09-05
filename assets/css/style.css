@@ -6,66 +6,171 @@
     border: none;
 }
 
-h1,
-h2 {
-    font-family: Ubuntu, sans-serif;
-    text-transform: uppercase;
+/* logo header image and nav styling */
+
+#logo {
+    margin-left: 40px;
     letter-spacing: 3px;
-    color: black;
+    font-family: Ubuntu, sans-serif;
+    font-size: 250%;
+    display: inline;
+}
+
+#menu {
+    font-family: Ubuntu, sans-serif;
+    letter-spacing: 3px;
+    list-style-type: none;
+    font-size: 120%;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #menu li {
-    list-style-type: none;
-    margin-right: 20px;
     float: right;
+
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
+    margin-right: 30px;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a
+    border-bottom: 1px solid black;
 }
 
-#logo {
-    float: left;
-    font-size: 200%;
-    margin-left: 40px;
+#logo,
+#menu {
+    line-height: 70px;
 }
 
-#menu,
-#logo {
-    line-height: 60px;
-}
-
-#bulb-image {
-    height: 600px;
-    width: 100%;
+#header-image {
     background: url('../images/testing.jpg') no-repeat center center;
-
-
+    height: 600px;
+    width: 110%;
 }
+
+h2 {
+    font-size: 170%;
+    text-transform: uppercase;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 700;
+    padding: 40px;
+}
+
+
+/* content styling */
+
 
 #energy-saving-content {
+    font-size: large;
+}
+
+
+/*before start content */
+
+.before-start-style {
     text-align: center;
-    width: 50%;
-
+    padding: 100px;
+    line-height: 30px;
 }
 
-#start {
-    float: left;
-    margin: 100px 0 100px 40px;
-    height: 500px;
-}
-
-#start-image {
-    background: url('../images/beforestart.jpg') no-repeat center center;
-    float: right;
-    position: absolute;
+#before-start-image {
+    background: url('../images/energysavingbulb.jpg') no-repeat center center;
     height: 500px;
     width: 100%;
-    left: 1000px;
+    border-radius: 50%;
+    margin-right: 100px;
+
 }
 
+.before-start-position {
+    display: flex;
+    margin-top: 100px;
+}
+
+/* drought-proofing content */
+
+.drought-proofing-position {
+    display: flex;
+    margin: 100px;
+}
+
+.drought-proofing-style {
+    text-align: center;
+    padding: 100px;
+    line-height: 30px;
+}
+
+#drought-proofing-video {
+    width: 100%;
+    height: 100%;
+    margin: 100px;
+    padding: 50px;
+}
+
+/* smart use of appiances content */
+
+
+.appliances-style {
+    text-align: center;
+    padding: 100px;
+    line-height: 30px;
+}
+
+.appliances-position {
+    display: flex;
+    margin: 100px;
+}
+
+#appliance-image {
+    background: url('../images/applianceimage.jpg') no-repeat center center;
+    height: 500px;
+    width: 100%;
+    margin: 100px;
+    border-radius: 30%;
+}
+
+/* temperature and controls content */
+
+.controls-style {
+    text-align: center;
+    padding: 100px 300px 100px 100px;
+    width: 80%;
+    line-height: 30px;
+}
+
+.controls-position {
+    display: flex;
+    margin: 100px;
+}
+
+#controls-image {
+    background: url('../images/beforestart.jpg') no-repeat center center;
+    height: 500px;
+    width: 100%;
+    border-radius: 70% 0 70% 0;
+}
+
+
+/* footer styling */
+
+footer {
+    height: 200px;
+    background-color: rgba(111, 168, 35, 0.7);
+    font-size: 500%;
+}
+
+#social {
+    bottom: 0 auto;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+#social li {
+    display: inline;
+    margin-right: 80px;
+}
