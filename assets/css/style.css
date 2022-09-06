@@ -67,7 +67,7 @@ h2 {
 #energy-saving-content {
     font-size: large;
     font-family: Ubuntu, sans-serif;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 
@@ -90,6 +90,7 @@ h2 {
 .before-start-position {
     display: flex;
     margin-top: 100px;
+    align-items: center;
 }
 
 /* drought-proofing content */
@@ -98,6 +99,7 @@ h2 {
     display: flex;
     margin: 30px;
     flex-direction: row-reverse;
+    align-items: center;
 }
 
 .drought-proofing-style {
@@ -122,6 +124,7 @@ h2 {
 .appliances-position {
     display: flex;
     margin: 30px;
+    align-items: center;
 }
 
 #appliance-image {
@@ -144,6 +147,7 @@ h2 {
     display: flex;
     margin: 30px;
     flex-direction: row-reverse;
+    align-items: center;
 }
 
 #controls-image {
@@ -195,6 +199,7 @@ footer {
     text-align: center;
     font-family: Ubuntu, sans-serif;
     margin: 30px;
+    line-height: 25px;
 }
 
 .below-table {
@@ -233,3 +238,13 @@ footer {
     background-color:rgba(111, 168, 35, 0.7);
     color: white;
 }
+
+/* contact content whole page */
+
+#contact-content {
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    margin: 30px;
+    line-height: 25px;
+}
+
