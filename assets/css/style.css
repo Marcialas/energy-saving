@@ -248,3 +248,12 @@ footer {
     line-height: 25px;
 }
 
+#contact-form {
+    height: 1200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: rgba(111, 168, 35, 0.7);
+    padding: 30px;
+}
