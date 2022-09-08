@@ -17,16 +17,21 @@
         <nav>
             <ul id="menu">
                 <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="consumption.html">Consumption Guidelines</a></li>
+                <li><a href="guidelines.html">Consumption Guidelines</a></li>
                 <li><a href="index.html">Home</a></li>
 
             </ul>
         </nav>
     </header>
-    <section>
-        <div id="header-image"></div>
-    </section>
+
+    <div id="header-image"></div>
+
     <section id="contact-content">
+        <div class="contact-info">
+            <h2>What can we do for you?</h2>
+            <p>Contact us with your contact details, your budget and details of your home like when it was built andand we will come back
+                recommending you a right contractor for the job.</p>
+        </div>
         <form id="contact-form" action="post">
             <label for="fname">Full Name</label>
             <input type="text" id="fname" name="fname" placeholder="Full Name" required>
@@ -36,11 +41,14 @@
             <input type="tel" id="mobile" name="mobile" placeholder="Mobile" required>
             <label for="service">Subject</label>
             <select id="service" name="service">
-                <option value="contractor">Refer me to a contractor</option>
+                <option value="contractor">Refer me a contractor</option>
                 <option value="provider">Get me best energy discount</option>
-            </select> 
+            </select>
             <label for="upload">Attach pictures</label>
             <input type="file" id="upload" name="upload" multiple>
+            <label for="details">Details</label>
+            <textarea name="details" id="details" cols="20" rows="20" placeholder="Try to give as much details as you can"></textarea>
+            <input type="submit" value="submit">
         </form>
 
     </section>
