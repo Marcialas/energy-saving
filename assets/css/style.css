@@ -16,6 +16,10 @@
     display: inline;
 }
 
+.logo {
+    background-color: #A9D45E;
+}
+
 #menu {
     font-family: Ubuntu, sans-serif;
     letter-spacing: 3px;
@@ -163,7 +167,7 @@ h2 {
 
 footer {
     height: 55px;
-    background-color: rgba(111, 168, 35, 0.7);
+    background-color: rgba(169, 212, 94, 0.9);
     font-size: 200%;
     display: flex;
     align-items: center;
@@ -203,7 +207,7 @@ footer {
 }
 
 .below-table {
-    margin: 100px 100px 300px 100px;
+    margin: 100px;
 }
 
 .consumption-table {
@@ -226,17 +230,21 @@ footer {
 }
 
 #appliances tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #A9D45E;
+}
+
+#appliances tr:nth-child(odd) {
+    background-color: #C3E18E;
 }
 
 #appliances tr:hover {
-    background-color: #ddd;
+    background-color: #EEF6DF;
 }
 
 #appliances th {
     padding: 10px;
     text-align: center;
-    background-color: rgba(111, 168, 35, 0.7);
+    background-color: #6A9127;
     color: white;
 }
 
@@ -255,11 +263,11 @@ footer {
     width: 45%;
     display: flex;
     flex-direction: column;
-    background-color: rgba(111, 168, 35, 0.7);
+    background-color: rgb(169, 212, 94);
     padding: 40px;
     border-radius: 20%;
     align-items: center;
-    border: 1px solid #ccc;
+    border: 1px solid #536F1F;
 }
 
 .contact-info {
@@ -267,6 +275,7 @@ footer {
     flex-direction: column;
     width: 40%;
     margin-right: 60px;
+    justify-content: flex-start;
 }
 
 input[type=text],
@@ -275,30 +284,32 @@ input[type=email],
 select {
     width: 65%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #536F1F;
 }
 
 textarea {
     width: 80%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #536F1F;
 }
+
 input[type=file] {
     width: fit-content;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #536F1F;
 }
 
 input[type=submit] {
     height: 45px;
     width: fit-content;
-    background-color: green;
+    background-color: #3BBA47;
     font-size: 30px;
     border-radius: 30%;
     margin-top: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #536F1F;
+    padding: 5px;
 }
 
 input[type=submit]:hover {
-    background-color: aquamarine;
+    background-color: #73D47E;
 }
