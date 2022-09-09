@@ -14,6 +14,7 @@
     font-family: Ubuntu, sans-serif;
     font-size: 250%;
     display: inline;
+    color: white;
 }
 
 .logo {
@@ -177,22 +178,26 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    color: white;
 }
 
 .social {
     list-style-type: none;
     margin-left: 50px;
     display: inline-flex;
+    color: white;
 }
 
 #social li {
     display: inline;
     margin-right: 80px;
+    color: white;
 }
 
 .footer-logo {
     display: inline-flex;
     margin-right: 50px;
+    color: white;
 }
 
 
