@@ -10,11 +10,12 @@
 
 #logo {
     margin-left: 20px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-family: Ubuntu, sans-serif;
     font-size: 250%;
     display: inline;
     color: white;
+    text-decoration: none;
 }
 
 .logo {
@@ -23,7 +24,7 @@
 
 #menu {
     font-family: Ubuntu, sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     list-style-type: none;
     font-size: 120%;
     top: 0;
@@ -38,7 +39,7 @@
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: white;
     margin-right: 30px;
 }
 
@@ -52,9 +53,11 @@
 }
 
 #header-image {
-    background: url('../images/testing.jpg') no-repeat center center;
-    height: 600px;
-    width: 110%;
+    background: url('../images/green.png') no-repeat center center;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+
 }
 
 h2 {
@@ -84,12 +87,10 @@ h2 {
 }
 
 #before-start-image {
-    background: url('../images/energysavingbulb.jpg') no-repeat center center;
+    background: url('../images/greenbulb.png') no-repeat center center;
     height: 500px;
     width: 100%;
-    border-radius: 50%;
-    margin-right: 100px;
-
+    margin: 50px;
 }
 
 .before-start-position {
@@ -109,7 +110,7 @@ h2 {
 
 .drought-proofing-style {
     text-align: center;
-    margin: 20px;
+    margin-right: 50px;
 }
 
 #drought-proofing-video {
@@ -144,7 +145,7 @@ h2 {
 
 .controls-style {
     text-align: center;
-    margin: 100px 200px 100px 100px;
+    margin: 50px;
     width: 80%;
 }
 
@@ -160,7 +161,7 @@ h2 {
     height: 500px;
     width: 100%;
     border-radius: 70% 0 70% 0;
-    margin: 300px 100px;
+    margin: 150px 100px;
 }
 
 
@@ -185,19 +186,26 @@ footer {
     list-style-type: none;
     margin-left: 50px;
     display: inline-flex;
-    color: white;
+}
+
+.footer-logo a {
+    text-decoration: none;
 }
 
 #social li {
     display: inline;
     margin-right: 80px;
-    color: white;
+    text-decoration: none;
+}
+
+.social a {
+    text-decoration: none;
 }
 
 .footer-logo {
     display: inline-flex;
     margin-right: 50px;
-    color: white;
+
 }
 
 
@@ -207,7 +215,7 @@ footer {
 .electricity-content {
     text-align: center;
     font-family: Ubuntu, sans-serif;
-    margin: 30px;
+    margin: 100px;
     line-height: 25px;
 }
 
@@ -325,11 +333,35 @@ input[type=submit]:hover {
     .logo {
         height: 125px;
     }
+
     #menu {
         display: flex;
         justify-content: flex-end;
         position: relative;
         flex-direction: row-reverse;
         margin-left: 50px;
+    }
+    .before-start-position {
+        display: flex;
+        flex-direction: column;
+    }
+    .drought-proofing-position {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .appliances-position {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .controls-position {
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+    }
+
+    #header-image {
+        background-size: contain;
     }
 }
