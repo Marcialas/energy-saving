@@ -80,6 +80,7 @@ h2 {
     font-size: large;
     font-family: lato, sans-serif;
     line-height: 25px;
+    margin-top: -150px;
 }
 
 
@@ -214,12 +215,12 @@ footer a {
 .electricity-content {
     text-align: center;
     font-family: Lato, sans-serif;
-    margin: 100px;
+    margin: -100px 100px 100px 100px;
     line-height: 25px;
 }
 
 .below-table {
-    margin: 100px;
+    margin: 30px 30px 120px 30px;
 }
 
 .consumption-table {
@@ -265,7 +266,7 @@ footer a {
 #contact-content {
     text-align: center;
     font-family: Lato, sans-serif;
-    margin: 30px 30px 80px 30px;
+    margin: -30px 30px 80px 30px;
     line-height: 25px;
     display: flex;
 }
@@ -285,7 +286,7 @@ footer a {
 .contact-info {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 45%;
     margin-right: 60px;
     justify-content: flex-start;
 }
@@ -329,8 +330,14 @@ input[type=submit]:hover {
 /* screen size less than 1350px */
 
 @media screen and (max-width: 1350px) {
-    .logo {
-        height: 125px;
+    .logo-nav {
+        height: 80px;
+        line-height: 35px;
+
+    }
+
+    #header-image {
+        margin-top: -10px;
     }
 
     #menu {
@@ -378,6 +385,28 @@ input[type=submit]:hover {
     #contact-content {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        align-items: center;
+        row-gap: 50px;
+        margin: 0 auto;
+        width: fit-content;
+        margin-top: -100px;
+    }
+
+    .contact-info {
+        width: 90%;
+        margin: 0;
+    }
+    
+    #contact-form {
+        width: 75%;
+        margin-bottom: 120px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo-nav {
+        font-size: 70%;
+        width: 768px;
+        
     }
 }
