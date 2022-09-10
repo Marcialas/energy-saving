@@ -15,7 +15,7 @@
     font-size: 250%;
     display: inline;
     color: white;
-    text-decoration: none;
+    border-bottom: none;
 }
 
 .logo {
@@ -198,7 +198,7 @@ footer {
     text-decoration: none;
 }
 
-.social a {
+footer a {
     text-decoration: none;
 }
 
