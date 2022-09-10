@@ -60,7 +60,7 @@
     height: 400px;
     width: 100%;
     background-size: cover;
-    transform:scaleX(-1);
+    transform: scaleX(-1);
 
 }
 
@@ -345,15 +345,18 @@ input[type=submit]:hover {
         position: relative;
         margin-left: 50px;
     }
+
     .before-start-position {
         display: flex;
         flex-direction: column;
     }
+
     .drought-proofing-position {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
+
     .appliances-position {
         display: flex;
         flex-direction: column;
@@ -395,7 +398,7 @@ input[type=submit]:hover {
         width: 90%;
         margin: 0;
     }
-    
+
     #contact-form {
         width: 75%;
         margin-bottom: 120px;
@@ -406,6 +409,15 @@ input[type=submit]:hover {
     .logo-nav {
         font-size: 70%;
         width: 768px;
-        
+    }
+
+    #energy-saving-content {
+        margin: 15px;
+    }
+
+    #drought-proofing-video {
+        height: fit-content;
+        width: fit-content;
+        margin: 20px;
     }
 }
