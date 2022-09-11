@@ -12,6 +12,10 @@ body {
     background-color: #E2F3CD;
 }
 
+img {
+    text-align: center;
+}
+
 #logo {
     margin-left: 20px;
     letter-spacing: 2px;
@@ -93,12 +97,12 @@ h2 {
 .before-start-style {
     text-align: center;
     margin: 30px;
+    width: 60%;
 }
 
 #before-start-image {
-    background: url('../images/greenbulb.png') no-repeat center center;
     height: 500px;
-    width: 100%;
+    width: 80%;
     margin: 50px;
 }
 
@@ -137,16 +141,17 @@ h2 {
 }
 
 .appliances-position {
-    display: flex;
+    display: grid;
     margin: 30px;
     align-items: center;
+    grid-auto-flow: column;
 }
 
 #appliance-image {
     height: 500px;
-    width: 100%;
-    margin: 100px;
-    border-radius: 30%;
+    width: 80%;
+    margin: 60px;
+    border-radius: 50%;
 }
 
 /* temperature and controls content */
@@ -375,6 +380,12 @@ input[type=submit]:hover {
 
     #header-image {
         background-size: contain;
+    }
+
+    img {
+        height: 90%;
+        width: 90%;
+        object-fit: contain;
     }
 }
 
