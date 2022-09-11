@@ -8,6 +8,10 @@
 
 /* logo header image and nav styling */
 
+body {
+    background-color: #E2F3CD;
+}
+
 #logo {
     margin-left: 20px;
     letter-spacing: 2px;
@@ -58,7 +62,7 @@
 #header-image {
     background: url('../images/green.png') no-repeat center center;
     height: 400px;
-    width: 100%;
+    width: 100vw;
     background-size: cover;
     transform: scaleX(-1);
 
@@ -139,7 +143,6 @@ h2 {
 }
 
 #appliance-image {
-    background: url('../images/applianceimage.jpg') no-repeat center center;
     height: 500px;
     width: 100%;
     margin: 100px;
@@ -151,7 +154,9 @@ h2 {
 .controls-style {
     text-align: center;
     margin: 50px;
-    width: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .controls-position {
@@ -159,14 +164,15 @@ h2 {
     margin: 30px;
     flex-direction: row-reverse;
     align-items: center;
+    justify-content: space-between;
 }
 
 #controls-image {
-    background: url('../images/beforestart.jpg') no-repeat center center;
     height: 500px;
-    width: 100%;
+    width: 80%;
     border-radius: 70% 0 70% 0;
-    margin: 150px 100px;
+    margin: 100px;
+    display: flex;
 }
 
 
@@ -309,7 +315,6 @@ textarea {
 input[type=file] {
     width: fit-content;
     padding: 10px;
-    border: 1px solid #536F1F;
 }
 
 input[type=submit] {
@@ -408,7 +413,7 @@ input[type=submit]:hover {
 @media screen and (max-width: 768px) {
     .logo-nav {
         font-size: 70%;
-        width: 768px;
+        width: 100%;
     }
 
     #energy-saving-content {
@@ -416,8 +421,80 @@ input[type=submit]:hover {
     }
 
     #drought-proofing-video {
-        height: fit-content;
-        width: fit-content;
+        height: 60%;
+        width: 80%;
         margin: 20px;
+        display: flex;
+        flex-shrink: 1;
+    }
+
+    footer {
+        width: fit-content;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .logo-nav {
+        font-size: 50%;
+        width: 100%;
+    }
+
+    .electricity-content {
+        margin: -100px 10px 10px 10px;
+    }
+
+    footer {
+        font-size: 80%;
+        width: 100%;
+    }
+
+    #social li {
+        margin: 10px;
+    }
+
+    .social {
+        margin: 0px;
+    }
+
+
+    #controls-image {
+        border-radius: 20% 0 20% 0;
+        object-fit: contain;
+        margin: 0 0 50px 0;
+        height: 200px;
+        width: 320px;
+    }
+
+    #appliances {
+        font-size: xx-small;
+        line-height: 15px;
+        width: fit-content;
+    }
+
+    .consumption-table {
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .logo-nav {
+        font-size: 27%;
+
+    }
+
+    #menu {
+        margin-left: 10px;
+    }
+
+    #contact-form {
+        width: 50%;
+    }
+    .contact-info {
+        width: 70%;
     }
 }
