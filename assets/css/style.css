@@ -38,7 +38,7 @@ img {
     font-family: Ubuntu, sans-serif;
     letter-spacing: 2px;
     list-style-type: none;
-    font-size: 120%;
+    font-size: 140%;
     top: 0;
     right: 0;
     position: absolute;
@@ -69,6 +69,7 @@ img {
     width: 100vw;
     background-size: cover;
     transform: scaleX(-1);
+    z-index: -1;
 
 }
 
@@ -399,7 +400,13 @@ input[type=submit]:hover {
         flex-direction: column;
         width: 100%;
     }
+.controls-style {
+    width: fit-content;
+}
 
+.before-start-style {
+    width: fit-content;
+}
     #contact-content {
         display: flex;
         flex-direction: column;
@@ -421,9 +428,11 @@ input[type=submit]:hover {
     }
 }
 
+/* style for screens smaller than 768px */
+
 @media screen and (max-width: 768px) {
     .logo-nav {
-        font-size: 70%;
+        font-size: 65%;
         width: 100%;
     }
 
@@ -431,6 +440,15 @@ input[type=submit]:hover {
         margin: 15px;
     }
 
+    .before-start-style {
+        margin: 0;
+        width: fit-content;
+    }
+
+    .controls-style {
+        margin: 0;
+        width: fit-content;
+    }
     #drought-proofing-video {
         height: 60%;
         width: 80%;
@@ -449,25 +467,39 @@ input[type=submit]:hover {
     }
 }
 
+/* style for screens smaller than 550px */
+
 @media screen and (max-width: 550px) {
     .logo-nav {
         font-size: 50%;
         width: 100%;
-    }
+        height: 50px;
+        line-height: 10px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
 
+    }
+#menu {
+    padding-bottom: 0;
+}
     .electricity-content {
         margin: -100px 10px 10px 10px;
     }
 
     footer {
-        font-size: 80%;
+        font-size: 100%;
         width: 100%;
+        height: 40px;
     }
 
     #social li {
         margin: 10px;
     }
 
+    .footer-logo {
+        margin: 0 auto;
+    }
     .social {
         margin: 0px;
     }
@@ -492,9 +524,11 @@ input[type=submit]:hover {
     }
 }
 
+/* style for screens smaller than 425px */
+
 @media screen and (max-width:425px) {
     .logo-nav {
-        font-size: 27%;
+        font-size: 40%;
 
     }
 
