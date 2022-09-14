@@ -22,7 +22,7 @@ img {
     font-family: Ubuntu, sans-serif;
     font-size: 250%;
     display: inline;
-    color: white;
+    color: black;
 }
 
 .logo-nav a {
@@ -51,7 +51,7 @@ img {
 }
 
 #menu a {
-    color: white;
+    color: black;
     margin-right: 30px;
 }
 
@@ -64,7 +64,7 @@ img {
 }
 
 #header-image {
-    background: url('../images/green.png') no-repeat center center;
+    background: url('../images/green.webp') no-repeat center center;
     height: 400px;
     width: 100vw;
     background-size: cover;
@@ -81,7 +81,7 @@ h2 {
 }
 
 
-/* whole content styling */
+/* whole energy content styling */
 
 
 #energy-saving-content {
@@ -96,7 +96,7 @@ h2 {
 
 .before-start-style {
     text-align: center;
-    margin: 30px;
+    padding: 30px;
     width: 60%;
 }
 
@@ -195,6 +195,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    color: black;
 }
 
 .social {
@@ -210,7 +211,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .footer-logo {
@@ -269,7 +270,7 @@ footer a {
     padding: 10px;
     text-align: center;
     background-color: #6A9127;
-    color: white;
+    color: black;
 }
 
 /* contact content whole page */
@@ -366,12 +367,13 @@ input[type=submit]:hover {
     .appliances-position {
         display: flex;
         flex-direction: column;
+
     }
 
     .controls-position {
         display: flex;
         flex-direction: column;
-        margin: 40px;
+        padding: 40px;
     }
 
     #header-image {
