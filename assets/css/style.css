@@ -98,12 +98,13 @@ h2 {
     text-align: center;
     padding: 30px;
     width: 60%;
+    justify-content: center;
 }
 
 #before-start-image {
     height: 500px;
     width: 80%;
-    margin: 50px;
+    padding-left: 50px;
 }
 
 .before-start-position {
@@ -439,8 +440,16 @@ input[type=submit]:hover {
         width: 100%;
     }
 
+    #header-image {
+        height: 20vh;
+    }
+
     #energy-saving-content {
         margin: 15px;
+    }
+
+    #before-start-image {
+        height: 30vh;
     }
 
     #appliance-image {
@@ -554,13 +563,16 @@ input[type=submit]:hover {
 /* style for screens smaller than 425px */
 
 @media screen and (max-width:425px) {
-    .logo-nav {
-        font-size: 40%;
 
-    }
+    .logo-nav {
+            font-size: 0.5rem;
+            width: fit-content;
+            height: 70px;
+        }
 
     #menu {
         margin-left: 10px;
+        font-size: 0.8rem;
     }
 
     #contact-form {
@@ -569,5 +581,9 @@ input[type=submit]:hover {
 
     .contact-info {
         width: 70%;
+    }
+
+    #header-image {
+        height: 10vh;
     }
 }
