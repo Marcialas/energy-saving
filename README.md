@@ -1,108 +1,136 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Project logo](assets/readmeimages/logoforreadme.png) 
+<h1>Energy Saving project</h1>
 
-Welcome Marcialas,
+<p>The Energy Saving project website is to help people understand their energy usage at home and help them reduce cost of living during these hard times</p>
+<p>User of this website will find usefull information on how to improve their home and make it more energy efficient and save some money on energy bills.</p>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive design](assets/readmeimages/responsivedesign.jpg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<hr>
+<br>
 
-## Gitpod Reminders
+<h2>Features</h2>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<br>
 
-`python3 -m http.server`
+![index page](assets/readmeimages/indexpage.jpg)
 
-A blue button should appear to click: _Make Public_,
+<ul><h3>Main page</h3>
+<li>Before you start section - links to grants available for retrofitting home and understanding energy bills</li>
+<li>Drought-Proofing section - Video on how to drought-proof windows and other info on the topic</li>
+<li>Smart use of Appliances section - tips how to save on smarter use on every day home appliances</li>
+<li>Temperature, timers and controls section - tips how to save money on energy bills with heating controls</li>
+</ul>
 
-Another blue button should appear to click: _Open Browser_.
+<br>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![guidelines page](assets/readmeimages/guidelinespage.jpg)
 
-A blue button should appear to click: _Make Public_,
+<ul><h3>Guidelines</h3>
 
-Another blue button should appear to click: _Open Browser_.
+<li>General information on how electricity is measured</li>
+<li>Info on how to calculate how much energy appliances use</li>
+<li>Table with already calculated in euros how much particular appliance cost to run</li>
+</ul>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<br>
 
-To log into the Heroku toolbelt CLI:
+![contact us page](assets/readmeimages/contactuspage.jpg)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<ul><h3>Contact us</h3>
+<li>Info on what can do for user if they contact us</li>
+<li>Contact us form with necessary info when contacting us</li>
+</ul>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<hr>
+<br>
 
-------
+<h2>Testing</h2>
 
-## Release History
+<br>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<ul>
+<li>I have tested this website in following browsers: Chrome, Firefox, Edge.</li>
+<li>Tested website for responsivness using 'dev tools' on different resolutions for mobile devices</li>
+<li>I have tested website links make sure they work and open in different tab</li>
+<li>Contact us form has been tested to make sure all fields work as intended and submit buttom works</li>
+</ul>
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<hr>
+<br>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<h2>Bugs</h2>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<br>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<ul><h3>Solved bugs</h3>
+<li>When deployed to GitHub, images failed to load.</li>
+<li>After going further into the issue found that i have used absolute file path for images like below sample </li>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![absolute](assets/readmeimages/absolutefilepath.jpg)
+<li>Removing the starting " / " has fixed the issue.</li>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<hr>
+<br>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<h2>Validator testing</h2>
+<ul>
+<li>HTML
+<ul>
+<li>Checking code with the official W3C validator results with no errors</li>
+</ul>
+<li>CSS
+<ul>
+<li>Checking code with the official W3C (Jigsaw) results with no errors</li>
+</ul>
+<li>Accessibility
+<ul>
+<li>Lighthouse dev tool confirmed that the colors and fonts chosen for the project are easy to read and accessible
+</ul>
+</ul>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<hr>
+<br>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![lighthouse report](assets/readmeimages/guidelineslighthouse.jpg)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<br>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<h2>Unfixed bugs</h2>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+No unfixed bugs found
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<hr>
+<br>
 
-------
+<h2>Deployment</h2>
 
-## FAQ about the uptime script
+<ul>
+<li>This website has been deployed to GitHub pages. The steps to deploy are as follows:</li>
+<ul>
+<li>In GitHub repository, navigate to settings tab</li>
+<li>Go to Pages tab in navigation menu</li>
+<li>From Branch drop down menu select main and click save</li>
+<li>Once saved page will be deployed in a few minutes with direct link provided</li>
+</ul>
 
-**Why have you added this script?**
+The deployed website can be found here - <a href="https://marcialas.github.io/energy-saving/">Energy saving project</a>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+<hr>
+<br>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+<h2>Credits</h2>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+<h3>Content</h3>
+<ul>
+<li>Table contents and some paragraph content taken from Bonkers.ie</li>
+</ul>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<br>
 
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+<h3>Media</h3>
+<ul>
+<li>Images found on website taken from Pexels</li>
+</ul>
