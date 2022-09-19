@@ -73,7 +73,7 @@
 <hr>
 <br>
 
-<h2>Validator testing<h2>
+<h2>Validator testing</h2>
 <ul>
 <li>HTML
 <ul>
@@ -87,3 +87,9 @@
 <ul>
 <li>Lighthouse dev tool confirmed that the colors and fonts chosen for the project are easy to read and accessible
 </ul>
+</ul>
+
+<hr>
+<br>
+
+![lighthouse report](assets/readmeimages/guidelineslighthouse.jpg)
