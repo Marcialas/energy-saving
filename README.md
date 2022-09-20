@@ -38,7 +38,7 @@
 ![contact us page](assets/readmeimages/contactuspage.jpg)
 
 <ul><h3>Contact us</h3>
-<li>Info on what can do for user if they contact us</li>
+<li>Info on what can we do for user if they contact us</li>
 <li>Contact us form with necessary info when contacting us</li>
 </ul>
 
@@ -47,17 +47,14 @@
 
 <h2>Testing</h2>
 
-column 3 expected result pass y/n
-check links that all work
-
-<br>
-
-<ul>
-<li>I have tested this website in following browsers: Chrome, Firefox, Edge.</li>
-<li>Tested website for responsivness using 'dev tools' on different resolutions for mobile devices</li>
-<li>I have tested website links make sure they work and open in different tab</li>
-<li>Contact us form has been tested to make sure all fields work as intended and submit buttom works</li>
-</ul>
+| Expected result   | Test taken        | Passed?   |
+| ------------- | ------------- | --------    |
+| Links redirect to correct destinations and opens in new tab | Click on all links on website  | Yes |
+| Embedded youtube video works and shrinks to smaller screen sizes | Play video and check its size test its size for smaller screen  | Yes   |
+| Contact us form can not be submitted without required details | Fill in certain fields in form to check if it's allowed to submit | Yes |
+| Contact us form redirects to response.html | Fill in all form fields and click submit | Yes |
+| Website works with different browsers | Tested with Chrome, Edge, Firefox | Yes |
+| Website looks well with different sized screens | Test with devtools for different screen sizes, also tested with Samsung S10+ & Iphone 13 | Yes |
 
 <hr>
 <br>

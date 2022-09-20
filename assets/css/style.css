@@ -224,7 +224,7 @@ footer a {
 }
 
 
-/* table page style */
+/* consumption table page style */
 
 
 .electricity-content {
@@ -242,7 +242,6 @@ footer a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 30px;
 }
 
 #appliances {
@@ -341,6 +340,14 @@ input[type=submit]:hover {
     background-color: #73D47E;
 }
 
+/* form response styling */
+
+#response>h2 {
+    font-size: 3rem;
+    text-transform: none;
+    text-align: center;
+}
+
 /* screen size less than 1350px */
 
 @media screen and (max-width: 1350px) {
@@ -361,6 +368,10 @@ input[type=submit]:hover {
         flex-direction: column;
     }
 
+    .before-start-style {
+        width: fit-content;
+    }
+
     .drought-proofing-position {
         display: flex;
         flex-direction: column;
@@ -377,6 +388,10 @@ input[type=submit]:hover {
         display: flex;
         flex-direction: column;
         padding: 40px;
+    }
+
+    .controls-style {
+        width: fit-content;
     }
 
     #header-image {
@@ -401,16 +416,8 @@ input[type=submit]:hover {
         width: 100%;
     }
 
-    .controls-style {
-        width: fit-content;
-    }
-
-    .before-start-style {
-        width: fit-content;
-    }
-
     .electricity-content {
-        margin: 30px;
+        margin: 10px;
     }
 
     #contact-content {
@@ -465,10 +472,6 @@ input[type=submit]:hover {
         width: fit-content;
     }
 
-    .controls-style {
-        margin: 0;
-        width: fit-content;
-    }
 
     #drought-proofing-video {
         float: none;
@@ -489,6 +492,9 @@ input[type=submit]:hover {
         height: 100%;
     }
 
+    #appliances {
+        margin: 0 auto;
+    }
 
     footer {
         width: fit-content;
@@ -499,6 +505,9 @@ input[type=submit]:hover {
         font-size: 150%;
     }
 
+    #response>h2 {
+        font-size: 1.5rem;
+    }
 
 }
 
@@ -567,10 +576,10 @@ input[type=submit]:hover {
 @media screen and (max-width:430px) {
 
     .logo-nav {
-            font-size: 0.4rem;
-            width: 100%;
-            height: 50px;
-        }
+        font-size: 0.4rem;
+        width: 100%;
+        height: 50px;
+    }
 
     #menu {
         margin-left: 10px;
