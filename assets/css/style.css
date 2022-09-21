@@ -88,7 +88,7 @@ h2 {
     font-size: large;
     font-family: lato, sans-serif;
     line-height: 25px;
-    margin-top: 50px;
+    margin-top: -100px;
 }
 
 
@@ -96,16 +96,17 @@ h2 {
 
 .before-start-style {
     text-align: center;
-    padding: 30px;
+    padding: 0 30px;
     width: 60%;
     justify-content: center;
 }
 
 #before-start-image {
-    height: 500px;
+    height: 400px;
     width: 80%;
     padding-left: 50px;
     object-fit: cover;
+    align-items: flex-end;
 }
 
 .before-start-position {
@@ -114,23 +115,23 @@ h2 {
     align-items: center;
 }
 
-/* drought-proofing content */
+/* draught-proofing content */
 
-.drought-proofing-position {
+.draught-proofing-position {
     display: flex;
-    margin: 30px;
+    margin: 0 30px;
     flex-direction: row-reverse;
     align-items: center;
 }
 
-.drought-proofing-style {
+.draught-proofing-style {
     text-align: center;
 }
 
-#drought-proofing-video {
+#draught-proofing-video {
     width: 100%;
     height: 100%;
-    margin: 200px 100px 100px 100px;
+    margin: 50px;
 }
 
 /* smart use of appiances content */
@@ -138,12 +139,11 @@ h2 {
 
 .appliances-style {
     text-align: center;
-    margin: 30px;
+    margin: 0 100px;
 }
 
 .appliances-position {
     display: grid;
-    margin: 30px;
     align-items: center;
     grid-auto-flow: column;
 }
@@ -160,7 +160,7 @@ h2 {
 
 .controls-style {
     text-align: center;
-    margin: 50px;
+    margin: 0 30px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -168,7 +168,6 @@ h2 {
 
 .controls-position {
     display: flex;
-    margin: 30px;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
@@ -307,9 +306,14 @@ footer a {
 
 input[type=text],
 input[type=tel],
-input[type=email],
-select {
+input[type=email] {
     width: 65%;
+    padding: 10px;
+    border: 1px solid #536F1F;
+}
+
+select {
+    width: 68.2%;
     padding: 10px;
     border: 1px solid #536F1F;
 }
@@ -372,10 +376,11 @@ input[type=submit]:hover {
         width: fit-content;
     }
 
-    .drought-proofing-position {
+    .draught-proofing-position {
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin-top: -50px;
     }
 
     .appliances-position {
@@ -387,7 +392,6 @@ input[type=submit]:hover {
     .controls-position {
         display: flex;
         flex-direction: column;
-        padding: 40px;
     }
 
     .controls-style {
@@ -410,14 +414,14 @@ input[type=submit]:hover {
 @media screen and (max-width: 1200px) {
     footer {
         width: fit-content;
-        height: 100px;
+        height: 70px;
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
     .electricity-content {
-        margin: 10px;
+        margin: -100px 10px 10px 10px;
     }
 
     #contact-content {
@@ -461,10 +465,14 @@ input[type=submit]:hover {
         height: 30vh;
     }
 
+    .appliances-style {
+        margin: 0 25px;
+    }
+
     #appliance-image {
         width: 80vw;
-        height: 25vh;
-        margin: 0 10px;
+        height: 40vh;
+        margin: 30px 10px 0 10px;
     }
 
     .before-start-style {
@@ -473,7 +481,7 @@ input[type=submit]:hover {
     }
 
 
-    #drought-proofing-video {
+    #draught-proofing-video {
         float: none;
         clear: both;
         width: 100%;
@@ -484,12 +492,20 @@ input[type=submit]:hover {
         margin: 40px 10px 10px 10px;
     }
 
-    #drought-proofing-video iframe {
+    #draught-proofing-video iframe {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
+    }
+
+    .controls-position {
+        padding: 0;
+        margin: 0;
+    }
+    .electricity-content {
+        margin-top: -40px;
     }
 
     #appliances {
@@ -530,6 +546,11 @@ input[type=submit]:hover {
         font-size: 1rem;
     }
 
+    h2 {
+        font-size: 120%;
+        padding: 30px;
+    }
+
     .electricity-content {
         padding: 0 10px 10px 10px;
         font-size: 0.8rem;
@@ -540,7 +561,7 @@ input[type=submit]:hover {
     }
 
     footer {
-        font-size: 1rem;
+        font-size: 0.8rem;
         width: 100%;
         height: 40px;
     }
@@ -560,7 +581,7 @@ input[type=submit]:hover {
     #controls-image {
         border-radius: 20% 0 20% 0;
         object-fit: contain;
-        margin: 0 0 50px 0;
+        margin: 20px 0 50px 0;
         height: 200px;
         width: 320px;
     }
@@ -568,6 +589,10 @@ input[type=submit]:hover {
     #appliances {
         line-height: 15px;
         width: fit-content;
+    }
+
+    select {
+        width: 70%;
     }
 }
 
@@ -577,7 +602,7 @@ input[type=submit]:hover {
 
     .logo-nav {
         font-size: 0.4rem;
-        width: 100%;
+        width: 100vw;
         height: 50px;
     }
 
@@ -585,7 +610,9 @@ input[type=submit]:hover {
         margin-left: 10px;
         font-size: 0.8rem;
     }
-
+#contact-content {
+    margin-top: 0;
+}
     #contact-form {
         width: 50%;
     }
@@ -595,6 +622,17 @@ input[type=submit]:hover {
     }
 
     #header-image {
-        height: 10vh;
+        height: 15vh;
+    }
+
+    #appliances {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .logo-nav {
+        width: 400px;
+    }
     }
 }
